@@ -3,18 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/favicon.jpg" type="image/jpg" >
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-    <title>Advanced HTML and CSS</title>
+    <title>Online Examination</title>
 </head>
 <body>
 
 
-        <form class="ml-5" action ="https://formspree.io/xeqrbvgz" method="POST" >
+        <form class="m-5 " action ="https://formspree.io/xeqrbvgz" method="POST" >
 
-            <h1>University of Benin Online Examination</h1>
+            <h1 class="text-center">University of Benin Online Examination</h1>
             <p>Please tick your level before starting the examination
-                <span> <strong>Examination is for 300l,400l and 500l only</strong></span>
+                <br/>
+                <span> <strong>NB:Examination is for 300l,400l and 500l only</strong></span>
             </p>
             <input type= "radio" name="some" value="300l" /> 300l 
             <input type= "radio" name="some" value="400l" /> 400l
@@ -22,81 +24,86 @@
 
 
 
-            <h3>Questions</h3>
+            <h2 class="text-center">Questions</h2>
 
-            <label>
-               <h5>1.Describe Carbohydrate Metabolism Pathway:<br> </h5>
-                <br>
-                <textarea rows="5" cols="50" name="1." 1.Describe Carbohydrate Metabolism Pathway:"></textarea>
-            </label>
-                <br>
-            <label>
-                 <h5> 2. which is odd:<br></h5>
-                <input type="radio" name="2." value="glucose" /> Glucose <br>
-                <input type="radio" name="2." value="fructose" /> Fructose <br>
-                <input type="radio" name="2." value="Lactose" /> Lactose <br>
-                <input type="radio" name="2." value="Egg" /> Egg <br>
-            </label> <br>
 
-            <label>
-                <h5>3.Which of the following is a protein</h5><br>
-                <input type="radio" name="3." value="Keratin"/>Keratin <br>
-                <input type="radio" name="3." value="Glucose"/>Glucose <br>
-                <input type="radio" name="3." value="Keratin"/>Fatty Acid <br>
-                <input type="radio" name="3." value="Keratin"/>Lactose <br>
-            </label> <br>
+            <div class=" p-5">
+                <label>
+                    <h5>1.Describe Carbohydrate Metabolism Pathway:<br> </h5>
+                     <br>
+                     <textarea rows="5" cols="50" name="1."></textarea>
+                 </label>
+                     <br>
+                 <label>
+                      <h5> 2. which is odd:<br></h5>
+                     <input type="radio" name="2." value="glucose" /> Glucose <br>
+                     <input type="radio" name="2." value="fructose" /> Fructose <br>
+                     <input type="radio" name="2." value="Lactose" /> Lactose <br>
+                     <input type="radio" name="2." value="Egg" /> Egg <br>
+                 </label> <br>
+     
+                 <label>
+                     <h5>3.Which of the following is a protein</h5><br>
+                     <input type="radio" name="3." value="Keratin"/>Keratin <br>
+                     <input type="radio" name="3." value="Glucose"/>Glucose <br>
+                     <input type="radio" name="3." value="Keratin"/>Fatty Acid <br>
+                     <input type="radio" name="3." value="Keratin"/>Lactose <br>
+                 </label> <br>
+     
+                 <label>
+                     <h5>4.Which of the following is a pollysaccharide</h5> <br>
+                     <input type="radio" name="4." value="Keratin"/>Trehalose <br>
+                     <input type="radio" name="4." value="Glucose"/>Amyloose <br>
+                     <input type="radio" name="4." value="Keratin"/>Fatty Acid <br>
+                     <input type="radio" name="4." value="Keratin"/>Starch <br>
+                 </label> 
+                     <br>
+                 <label>
+                     <h5>5.Which of the following are disaccharides</h5> <br>
+                     <input type="checkbox" name="5." value="Keratin"/>Keratin <br>
+                     <input type="checkbox" name="5." value="Glucose"/>Glucose <br>
+                     <input type="checkbox" name="5." value="Keratin"/>Fatty Acid <br>
+                     <input type="checkbox" name="5." value="Keratin"/>Lactose <br>
+                 </label> <br>
+     
+                 <label>
+                     <h5>6.Describe the degradation of amylopectin:<br> </h5>
+                      <br>
+                      <textarea placeholder="In not more than 50 lines" rows="5" cols="50" name="6."></textarea>
+                  </label><br>
+     
+                  <label>
+                     <h5>7.Describe the degradation of amylose:<br> </h5>
+                      <br>
+                      <textarea placeholder="In not more than 50 lines" rows="5" cols="50" name="7."></textarea>
+                  </label><br>
+     
+                  <label>
+                     <h5>8.Describe the degradation of Fatty Acids:<br> </h5>
+                      <br>
+                      <textarea placeholder="In not more than 50 lines" rows="5" cols="50" name="8."></textarea>
+                  </label> <br>
+     
+                  <label>
+                     <h5>9.How Can Coronavirus be Transmitted :<br> </h5>
+                      <br>
+                      <textarea placeholder="In not more than 50 lines" rows="5" cols="50" name="9."></textarea>
+                  </label> <br>
+     
+                  <label for="">
+                      <h5> 10.Tick the Pathways in Biochemistry <br></h5>
+                      <input type="checkbox" name="10." value="Carbohydrate Pathway" /> Carbohydrate Pathway <br>
+                      <input type="checkbox" name="10." value="Protein Metabolism" /> Protein Metabolism <br>
+                      <input type="checkbox"  name="10." value="Fatty Acid Metabolism" /> Fatty Acid Metabolism <br>
+                      <input type="checkbox"  name="10." value="Coronavirus Metabolism" /> Coronavirus Metabolism <br>
+                  </label>
+            </div>
 
-            <label>
-                <h5>4.Which of the following is a pollysaccharide</h5> <br>
-                <input type="radio" name="4." value="Keratin"/>Trehalose <br>
-                <input type="radio" name="4." value="Glucose"/>Amyloose <br>
-                <input type="radio" name="4." value="Keratin"/>Fatty Acid <br>
-                <input type="radio" name="4." value="Keratin"/>Starch <br>
-            </label> 
-                <br>
-            <label>
-                <h5>5.Which of the following are disaccharides</h5> <br>
-                <input type="checkbox" name="5." value="Keratin"/>Keratin <br>
-                <input type="checkbox" name="5." value="Glucose"/>Glucose <br>
-                <input type="checkbox" name="5." value="Keratin"/>Fatty Acid <br>
-                <input type="checkbox" name="5." value="Keratin"/>Lactose <br>
-            </label> <br>
-
-            <label>
-                <h5>6.Describe the degradation of amylopectin:<br> </h5>
-                 <br>
-                 <textarea placeholder="In not more than 50 lines" rows="5" cols="50" name="6."></textarea>
-             </label><br>
-
-             <label>
-                <h5>7.Describe the degradation of amylose:<br> </h5>
-                 <br>
-                 <textarea placeholder="In not more than 50 lines" rows="5" cols="50" name="7."></textarea>
-             </label><br>
-
-             <label>
-                <h5>8.Describe the degradation of Fatty Acids:<br> </h5>
-                 <br>
-                 <textarea placeholder="In not more than 50 lines" rows="5" cols="50" name="8."></textarea>
-             </label> <br>
-
-             <label>
-                <h5>9.How Can Coronavirus be Transmitted :<br> </h5>
-                 <br>
-                 <textarea placeholder="In not more than 50 lines" rows="5" cols="50" name="9."></textarea>
-             </label> <br>
-
-             <label for="">
-                 <h5> 10.Tick the Pathways in Biochemistry <br></h5>
-                 <input type="checkbox" name="10." value="Carbohydrate Pathway" /> Carbohydrate Pathway <br>
-                 <input type="checkbox" name="10." value="Protein Metabolism" /> Protein Metabolism <br>
-                 <input type="checkbox"  name="10." value="Fatty Acid Metabolism" /> Fatty Acid Metabolism <br>
-                 <input type="checkbox"  name="10." value="Coronavirus Metabolism" /> Coronavirus Metabolism <br>
-             </label>  <br>
+              <br>
               
              <br>
 
-             <button type="submit"  >Submit </button>
+             <button type="submit" class=" m-5 btn btn-success " >Submit </button>
 
 
         </form>
@@ -104,9 +111,5 @@
 
 
 
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 </body>
 </html>
